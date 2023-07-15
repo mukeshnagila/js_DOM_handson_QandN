@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Questions & Answers</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header">DOM Questions & Answers</div>
+    <div class="main">
+        <h1>1- Write the code to access element which is having id as "text"...?</h1>
+        <h3>Ans -Document.getElementById(Id name);</h3>
+    </div>
+    <div class="main">
+        <h1>2- Write the code to access element which is having tag as "h1"...?</h1>
+        <h3>Ans -Document.getElementsByTagName(Tag name);</h3>
+    </div>
+    <div class="main">
+        <h1>3- Write the code to access element which is having class as "box"...?</h1>
+        <h3>Ans -Document.getElementsByClassName(class name);</h3>
+    </div>
+    <div class="main">
+        <h1>4-    &nbsp&nbsp&nbsp&nbsp<xmp><h1> Hello </h1></xmp><br>
+            Change the heading from "Hello" to "Hello World" using DOM functions"...?</h1>
+        <h3>Ans - <span id="hello" class="H">HELLO</span></h3>
+        <button onclick="headingchange()">Change-heading</button>
+    </div>
+    <div class="main">
+        <h1>5- Create an HTML page having content as Hello world and a button named Replace Text. 
+            When user will click on this button page content should be changed to "Welcome to Elevation academy"...?</h1>
+        <h3>Ans - <span id="hello2" class="H">Hello world</span></h3>
+        <button onclick="textchange()">Replace-Text</button>
+    </div>
+    <div class="main">
+        <h1>6- &nbsp&nbsp&nbsp&nbsp<xmp><h1> Hello </h1></xmp><br>
+        Add one style attribute and give text color as red and id attribute and give the id value as ""heading"" in the above given h1 tag using DOM functions"...?</h1>
+        <h3>Ans - <span id="heading" class="H">Hello Prepbytes How Are You..</span></h3>
+        <button onclick="colorchange()">change-color</button>
+    </div>
+    <div class="main">
+        <h1>7- Create three cards on HTML page and arrange them using flex property in row or horizontal direction and also create button at the bottom named "Change Flex direction". 
+            When user clicks on this button, the cards arrangement should be changed to vertical direction....?</h1>
+        <h3>Ans- </h3>
+        <div id="flex1" class="flex">
+            <div class="box"></div><br>
+            <div class="box"></div><br>
+            <div class="box"></div>
+        </div><br>
+        <button onclick="changedirection()">Change Flex direction</button>
+    </div>
+    <div class="main">
+        <h1>8- What’s the difference between window vs document...?</h1>
+        <h3>Ans -  "window" represents the browser window or tab, providing access to browser-related functionality, while "document" represents the web page loaded in the window, allowing manipulation of its content and structure.</h3>
+    </div>
+    <div class="main">
+        <h1>9- Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every second...?</h1>
+        <h3>Ans - <span id="time1" class="time"></span></h3>
+    </div>
+    <div class="main">
+        <h1>10- Create a game to guess the number and put this link on here...?</h1>
+        <h3>Ans - This is the host link of this game--- <a href=https://mukeshnagila.github.io/js_Handson_guess-game/>Click Me</a> </h3>
+    </div>
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

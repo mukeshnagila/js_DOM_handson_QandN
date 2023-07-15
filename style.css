@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: aqua;
+}
+
+.header{
+    color: red;
+    background-color: rgb(85, 255, 0);
+    font-size: 36px;
+    text-align: center;
+}
+
+.main{
+    padding: 15px;
+    border: 2px solid rgb(190, 24, 24);
+    line-height: 35px;
+}
+
+h3{
+    color: chocolate;
+}
+
+xmp{
+    display: inline;
+}
+
+.H{
+    font-size: 32px;
+}
+
+button{
+    text-align: center;
+    padding: 5px;
+    border: 2px solid blueviolet;
+    background-color: rgb(91, 232, 91);
+    border-radius: 5px;
+}
+
+.flex{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: cadetblue;
+}
+
+.time{
+    font-size: 26px;
+    font-weight: bolder;
+}
